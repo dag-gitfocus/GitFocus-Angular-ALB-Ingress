@@ -14,7 +14,7 @@ spec:
         app: "gitfocus-angular-alb"
     spec:
       containers:
-      - image: 792429589635.dkr.ecr.ap-south-1.amazonaws.com/gitfocus-angular:11
+      - image: 792429589635.dkr.ecr.ap-south-1.amazonaws.com/gitfocus-angular:13
         imagePullPolicy: Always
         name: "gitfocus-angular-alb-container"
         ports:
